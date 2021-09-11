@@ -1,0 +1,9 @@
+const ACTION_TYPES = Object.freeze({
+  REQUEST: "REQUEST",
+  SUCCESS: "SUCCESS",
+  FAILURE: "FAILURE",
+  CLEAR_ERROR: "CLEAR_ERROR",
+  RESET: "RESET"
+});
+
+export default ACTION_TYPES;

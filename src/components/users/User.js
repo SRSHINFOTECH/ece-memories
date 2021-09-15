@@ -32,7 +32,7 @@ export default function User() {
    
     return (
         <>
-            <Search searchData={userData} onChangeSearch={dispatchers[SERVICE_TYPES.SEARCH_USERS]}/>
+        <Search searchData={userData} onChangeSearch={dispatchers[SERVICE_TYPES.SEARCH_USERS]}/>
         <div className="twbsui ">
     
         <Table striped bordered hover size="sm">

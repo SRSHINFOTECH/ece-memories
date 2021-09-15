@@ -14,7 +14,7 @@ export default function SideNavBar() {
     return (
         <>
 
-<div class="container side-bar">
+<div class="side-bar">
   <ul className="side-bar-h">
     <li class="active">Home</li>
     <li>Profile</li>
